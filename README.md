@@ -22,7 +22,7 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 
 + This is an example which is how well train/predict.(For details, Please refer the code "automatic_stock_trading.py")
 <p align="center"> 
-<img src="https://github.com/OpenXAIProject/Automatic-Stock-Trading/blob/master/train_test_data.jpg"  width="600">
+<img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/lstm-predict.png"  width="600">
 </p>
 
 
