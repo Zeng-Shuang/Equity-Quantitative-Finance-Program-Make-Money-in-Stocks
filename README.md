@@ -1,2 +1,2 @@
 # Make-Money-in-Stocks
-hdhfh
+![Alt text](C:/Users/lenovo/Desktop/stat7008/project/Qlearning.png)
