@@ -27,6 +27,10 @@ We will use stock prices dataset of 50 randomly selected S&P 500 companies from 
 <p align="center"> 
 <img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/lstm-predict.png"  width="600">
 </p>
++ This is the result of the most frequently occurring words in stock price turning points (from 2020-03-17 to 2020-03-24) . (For details, Please refer the code "XXX.ipynb")
+<p align="center"> 
+<img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/cloudmap.png"  width="600">
+</p>
 
 
 ## Requirements 
