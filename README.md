@@ -20,7 +20,7 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 + We calculate rates of each stock of returns every at the end of each week.<br /> 
 ## Results
 
-+ This is an example which is how well train/predict.(For details, Please refer the code "automatic_stock_trading.py")
++ This is the result of stock predictions. (For details, Please refer the code "LSTM-Predict_final.ipynb")
 <p align="center"> 
 <img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/lstm-predict.png"  width="600">
 </p>
