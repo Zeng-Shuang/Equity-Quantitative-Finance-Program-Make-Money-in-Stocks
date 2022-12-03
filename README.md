@@ -1,23 +1,26 @@
-# Make-Money-in-Stocks
-In Wall Street, the global financial center, the proportion of investment in artificial intelligence has increased gradually since the 2008 financial crisis (Source: Bloomberg)
-In addition, artificial intelligence can make reasonable decisions because it does not pay for the inefficiency of investment sentiment in determining whether to invest and scale.(E.g, The one AI system at the time of the global financial crisis in 2008 recorded a 681% )
+# Make Money in-Stocks
+## Inroduction
+(1) Collect stock data of 50 randomly selected S&P 500 companies from five years ago, including names of companies, dates, their prices (open, high, low, close) and trading volume.<br /> 
+(2) Categorize companies according to their sectors: Industrial, Health Care, Communication Service, IT and Consumer Staples, and find the most profitable companies in each sector.<br /> 
+(3) Plot the trend of stock prices of different companies during the last three years sector by sector.<br /> 
+(4) If go three months back, arrange our saving and maximize&minimize the profit based on the historical prices five years ago (except the recent three months).<br />  Suppose we have a capital fund ($10000) for starting up, establish strategies (see in Details of Dataset and Models below) and give the analysis.<br /> 
+(5) Find turning points in (3). Automatically find out the events from social media that affect the whole stock market by ranking words frequency.<br /> 
 
 ## Dataset 
-We will use each of historical stock price dataset from the Reuters. The dataset contains the raw time-series data(Open, High, Low, Close, and Volume). <br /> 
+We will use stock prices dataset of 50 randomly selected S&P 500 companies from https://finance.yahoo.com. The dataset contains the raw time-series data(Open, High, Low, Close, and Volume). <br /> 
 
 ## Details of Dataset and Models 
 <p align="center"> 
 <img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/strategy%20overview.jpg"  width="600">
 </p>
 
-+ There are 10 stocks dataset(From 2015 ~ From 2017) and KOSPI index.<br /> 
-+ We use 10 stocks,KOSPI dataset not only 2015/2016(Jan-Dec) as train/Validation dateset, also 2016/2017(Jan-Dec) as test dateset.<br /> 
-+ We use XGBoost model.
-**Official website: https://xgboost.readthedocs.io/en/latest/index.html<br /> 
-
-+ XGBoost and other ensemble models is one of learning methods to predict stock prices. Afterwards based on past market data, stocks (listed in KOSPI market) are subject to post-verification(back-testing) and real-time simulation investment.<br /> 
-
-+ We calculate rates of each stock of returns every at the end of each week.<br /> 
++ There are 50 stocks dataset(From 2017-10-01 to 2022-11-27).<br /> 
++ We use dataset from 2017-10-01 to 2022-08-26 as train dateset, and dataset from 2022-08-27 to 2022-11-27 as test dateset.<br /> 
++ We use LSTM model for stock prices prediction, and stocks are then selected for trading. (For details, Please refer the code "LSTM-Predict_final.ipynb")<br /> 
++ Base on the stocks selected by LSTM model, We use Moving Average Convergence Divergence Strategy. (For details, Please refer the code "macd-v2.ipynb")<br /> 
++ We use Mean-Variance Portfolio model for stock selection. (For details, Please refer the code "Stock selection.ipynb")<br /> 
++ Base on the stocks selected by Mean-Variance Portfolio model, We use Q Reinforcement Learning Strategy. (For details, Please refer the code "stock_trader_final.ipynb")<br /> 
++ With an initial fund of $10000, We calculate profit after 3 months by using these two strategies.<br /> 
 ## Results
 
 + This is the result of stock predictions. (For details, Please refer the code "LSTM-Predict_final.ipynb")
@@ -27,12 +30,19 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 
 
 ## Requirements 
-+ XGboost (0.7)
-+ numpy (1.15.1)
-+ matplotlib (2.2.2)
-+ scikit-learn (0.19.1)
-+ Pandas (0.22.0)
-+ Scipy (1.1.0)
++ bs4 (0.0.1)
++ jieba (0.42.1)
++ xlrd (2.0.1)
++ xlwt (1.3.0)
++ pandas (1.4.2)
++ tensorflow (2.11.0)
++ numpy (1.21.5)
++ yfinance (0.1.87)
++ keras (2.11.0)
++ scikit-learn (1.1.1)
++ statsmodels (0.13.2)
++ scipy (1.7.3)
++ seaborn (0.11.2)
 
 ## Contacts
 If you have any question, please contact Zeng Shuang (zengsh9@connect.hku.hk).
