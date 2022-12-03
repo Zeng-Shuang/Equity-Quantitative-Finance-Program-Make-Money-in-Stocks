@@ -7,7 +7,7 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 
 ## Details of Dataset and Models 
 <p align="center"> 
-<img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/lstm-predict.png"  width="600">
+<img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/overview-of-strategy.png"  width="600">
 </p>
 
 + There are 10 stocks dataset(From 2015 ~ From 2017) and KOSPI index.<br /> 
