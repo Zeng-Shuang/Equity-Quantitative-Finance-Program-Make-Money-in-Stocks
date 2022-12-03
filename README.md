@@ -1,5 +1,5 @@
 # Make Money in Stocks
-## Inroduction
+## Introduction
 (1) Collect stock data of 50 randomly selected S&P 500 companies from five years ago, including names of companies, dates, their prices (open, high, low, close) and trading volume.<br /> 
 (2) Categorize companies according to their sectors: Industrial, Health Care, Communication Service, IT and Consumer Staples, and find the most profitable companies in each sector.<br /> 
 (3) Plot the trend of stock prices of different companies during the last three years sector by sector.<br /> 
