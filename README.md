@@ -16,18 +16,18 @@ We will use stock prices dataset of 50 randomly selected S&P 500 companies from 
 
 + There are 50 stocks dataset(From 2017-10-01 to 2022-11-27).<br /> 
 + We use dataset from 2017-10-01 to 2022-08-26 as train dateset, and dataset from 2022-08-27 to 2022-11-27 as test dateset.<br /> 
-+ We use LSTM model for stock prices prediction, and stocks are then selected for trading. (For details, Please refer the code "LSTM-Predict_final.ipynb")<br /> 
-+ Base on the stocks selected by LSTM model, We use Moving Average Convergence Divergence Strategy. (For details, Please refer the code "macd-v2.ipynb")<br /> 
-+ We use Mean-Variance Portfolio model for stock selection. (For details, Please refer the code "Stock selection.ipynb")<br /> 
-+ Base on the stocks selected by Mean-Variance Portfolio model, We use Q Reinforcement Learning Strategy. (For details, Please refer the code "stock_trader_final.ipynb")<br /> 
++ We use LSTM model for stock prices prediction, and stocks are then selected for trading. (For details, Please refer the code "Part4_LSTM Prediction.ipynb")<br /> 
++ Base on the stocks selected by LSTM model, We use Moving Average Convergence Divergence Strategy. (For details, Please refer the code "Part4_MACD Strategy.ipynb")<br /> 
++ We use Mean-Variance Portfolio model for stock selection. (For details, Please refer the code "Part4_stock selection.ipynb")<br /> 
++ Base on the stocks selected by Mean-Variance Portfolio model, We use Q Reinforcement Learning Strategy. (For details, Please refer the code "Part4_Q learning.ipynb")<br /> 
 + With an initial fund of $10000, We calculate profit after 3 months by using these two strategies.<br /> 
 ## Results
 
-+ This is the result of stock predictions. (For details, Please refer the code "LSTM-Predict_final.ipynb")
++ This is the result of stock predictions. (For details, Please refer the code "Part4_LSTM Prediction.ipynb.ipynb")
 <p align="center"> 
 <img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/lstm-predict.png"  width="600">
 
-+ This is the result of the most frequently occurring words in stock price turning points (from 2020-03-17 to 2020-03-24) . (For details, Please refer the code "XXX.ipynb")
++ This is the result of the most frequently occurring words in stock price turning points (from 2020-03-17 to 2020-03-24) . (For details, Please refer the code "Part5.ipynb")
 <p align="center"> 
 <img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/cloudmap.png"  width="600">
 </p>
