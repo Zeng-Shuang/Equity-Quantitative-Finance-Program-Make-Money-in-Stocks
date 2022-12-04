@@ -23,7 +23,7 @@ We will use stock prices dataset of 50 randomly selected S&P 500 companies from 
 + With an initial fund of $10000, We calculate profit after 3 months by using these two strategies.<br /> 
 ## Results
 
-+ This is the result of stock predictions. (For details, Please refer the code "Part4_LSTM Prediction.ipynb.ipynb")
++ This is the result of stock predictions. (For details, Please refer the code "Part4_LSTM Prediction.ipynb")
 <p align="center"> 
 <img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/lstm-predict.png"  width="600">
 
