@@ -1,10 +1,10 @@
 # Make Money in Stocks
 ## Introduction
-(1) Collect stock data of 50 randomly selected S&P 500 companies from five years ago, including names of companies, dates, their prices (open, high, low, close) and trading volume.<br /> 
-(2) Categorize companies according to their sectors: Industrial, Health Care, Communication Service, IT and Consumer Staples, and find the most profitable companies in each sector.<br /> 
-(3) Plot the trend of stock prices of different companies during the last three years sector by sector.<br /> 
-(4) If go three months back, arrange our saving and maximize&minimize the profit based on the historical prices five years ago (except the recent three months). Suppose we have a capital fund ($10000) for starting up, establish strategies (see in Details of Dataset and Models below) and give the analysis.<br /> 
-(5) Based on the stock price turning points of different sectors obtained in (3), crawling the financial news of Wall Street Journal from 2020-03-17 to 2020-03-24. Extracting the news headlines, counting the most frequently occurring words and making word cloud maps.<br /> 
+Part1 Collect stock data of 50 randomly selected S&P 500 companies from five years ago, including names of companies, dates, their prices (open, high, low, close) and trading volume.<br /> 
+Part2 Categorize companies according to their sectors: Industrial, Health Care, Communication Service, IT and Consumer Staples, and find the most profitable companies in each sector.<br /> 
+Part3 Plot the trend of stock prices of different companies during the last three years sector by sector.<br /> 
+Part4 If go three months back, arrange our saving and maximize&minimize the profit based on the historical prices five years ago (except the recent three months). Suppose we have a capital fund ($10000) for starting up, establish strategies (see in Details of Dataset and Models below) and give the analysis.<br /> 
+Part5 Based on the stock price turning points of different sectors obtained in (3), crawling the financial news of Wall Street Journal from 2020-03-17 to 2020-03-24. Extracting the news headlines, counting the most frequently occurring words and making word cloud maps.<br /> 
 
 ## Dataset 
 We will use stock prices dataset of 50 randomly selected S&P 500 companies from https://finance.yahoo.com. The dataset contains the raw time-series data(Open, High, Low, Close, and Volume). <br /> 
