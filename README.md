@@ -4,7 +4,7 @@ Part 1. Collect stock data of 50 randomly selected S&P 500 companies from five y
 Part 2. Categorize companies according to their sectors: Industrial, Health Care, Communication Service, IT and Consumer Staples, and find the most profitable companies in each sector.<br /> 
 Part 3. Plot the trend of stock prices of different companies during the last three years sector by sector.<br /> 
 Part 4. If go three months back, arrange our saving and maximize&minimize the profit based on the historical prices five years ago (except the recent three months). Suppose we have a capital fund ($10000) for starting up, establish strategies (see in Details of Dataset and Models below) and give the analysis.<br /> 
-Part 5. Based on the stock price turning points of different sectors obtained in Part 3, crawling the financial news of Wall Street Journal from 2020-03-17 to 2020-03-24. Extracting the news headlines, counting the most frequently occurring words and making word cloud maps.<br /> 
+Part 5. Based on the stock price turning points of different sectors obtained in Part 3, crawl the financial news of Wall Street Journal from 2020-03-17 to 2020-03-24. Extract the news headlines, count the most frequently occurring words and making word cloud maps.<br /> 
 
 ## Dataset 
 We will use stock prices dataset of 50 randomly selected S&P 500 companies from https://finance.yahoo.com. The dataset contains the raw time-series data(Open, High, Low, Close, and Volume). <br /> 
