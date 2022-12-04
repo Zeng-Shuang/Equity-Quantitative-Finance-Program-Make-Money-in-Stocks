@@ -32,6 +32,8 @@ We will use stock prices dataset of 50 randomly selected S&P 500 companies from 
 <img src="https://github.com/Zeng-Shuang/Make-Money-in-Stocks/blob/main/images/cloudmap.png"  width="600">
 </p>
 
++ For our latest result, please refer to Revised StockBot decision making algorithm.ipynb and Revised StockBot decision making algorithm (version 2).ipynb
+
 
 ## Requirements 
 + bs4 (0.0.1)
