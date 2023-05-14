@@ -51,7 +51,7 @@ We will use stock prices dataset of 50 randomly selected S&P 500 companies from 
 + seaborn (0.11.2)
 
 ## Contacts
-If you have any question, please contact Zeng Shuang (zengsh9@connect.hku.hk) or Gu Weiye (u3604749@connect.hku.hk).
+If you have any question, please contact ZENG Shuang (zengsh9@connect.hku.hk) or GU Weiye (u3604749@connect.hku.hk).
 
 <br /> 
 <br />
